@@ -2,11 +2,10 @@
 
 const getImg = () => {
 
-    axios.get('http://shibe.online/api/shibes?count=100&urls=true&httpsUrls=true')
+    axios.get('https://shibe.online/api/shibes?count=100&urls=true&httpsUrls=true')
     .then(response => {
         console.log(response);
-
-        postImg(response)
+        postImg(response);
     });
     
 }
