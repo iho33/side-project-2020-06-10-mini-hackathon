@@ -16,7 +16,7 @@ body {
 }
 
 img {
-  width: 50%;
+  height: 50vw;
   border-radius: 0.25rem;
   margin-top: 2rem;
 }
