@@ -1,0 +1,50 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    img {
+    width: 50%;
+    border-radius: 0.25rem;
+    margin-top: 2rem;
+    }
+
+    .joke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+        &__setup {
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        &__punchline {
+            text-align: center;
+            font-weight: bold;
+            font-size: 4rem;
+        }
+    }
+
+    .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+        &__select {
+        width: 50%;
+        font-family: 'Comic Sans MS', sans-serif;
+        font-size: 2rem;
+        border-radius: 0.25rem;
+        background:black;
+        color: white;
+        padding: 2rem;
+        }
+
+    }

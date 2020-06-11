@@ -1,0 +1,66 @@
+body {
+font-family: 'Comic Sans MS', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+img {
+
+width: 50%;
+border-radius: 0.25rem
+
+}
+
+.joke {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+&__setup {
+text-align: center;
+font-size: 2rem;
+}
+
+&__punchline {
+text-align: center;
+font-weight: bold;
+font-size: 4rem;
+}
+
+}
+
+.form {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+&__select {
+font-family: 'Comic Sans MS', sans-serif;
+font-size: 2rem;
+width: 50%;
+border-radius: 0.25rem;
+border: 0.25rem solid #000000;
+}
+
+&__button {
+background-color: #000000;
+color: #ffffff;
+font-size: 2rem;
+padding: 1.5rem;
+border-radius: 0.25rem;
+position: relative;
+top: 0px;
+box-shadow: 0 1rem 0 #c7c7c7;
+}
+
+&__button:active {
+top: 0px;
+box-shadow: 0 0.25rem 0 #c7c7c7;
+}
+
+}
